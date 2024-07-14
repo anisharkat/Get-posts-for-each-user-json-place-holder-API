@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    background-color: #282828;
+    color: #FFFFFF;
+
+}
+
+.left-div {
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    overflow-y: hidden !important; 
+    padding-right: 10px;
+    border-radius: 15px;
+    border: 3.5px solid #383838;
+    background-color: #282828;
+}
+
+.left-div:hover {
+    overflow-y: auto; 
+}
+
+.left-div .user-card {
+    background-color: #282828;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: inset 0 0 0 3px #383838;
+    margin-bottom: 10px;
+}
+
+.left-div .user-card:hover {
+    box-shadow: inset 0 0 0 2px #ffffff;
+    transition: all 0.5s ease;
+}
+
+.left-div .username {
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.left-div .usermail {
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+.right-div {
+    width: 70%;
+    height: 90%;
+    background-color: #282828;
+    margin: auto;
+    border-radius: 15px;
+    border: 3.5px solid #383838;
+    margin-left: 10px;
+    padding-right: 10px;
+    overflow: hidden !important;
+}
+
+.right-div .user-card {
+    background-color: #282828;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: inset 0 0 0 3px #383838;
+}
+
+.right-div .user-card:hover {
+    box-shadow: inset 0 0 0 2px #ffffff;
+    transition: all 0.5s ease;
+}
+
+.right-div .post_title {
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.right-div .post_body {
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
